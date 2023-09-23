@@ -1,12 +1,14 @@
 import "./body1-8.css";
 import body4img from "../../imgs/body4image.png";
 import star from '../../imgs/star pu.png';
+import purpleflare from "../../imgs/purple-flare.png";
 
 function Body4() {
     return (
         <div className="Body4">
         <div className="body4-left-section">
             <img src={body4img} alt="Body 4 images of man and woman" />
+            <img src={purpleflare} id='body4-purpleflare' />
         </div>
 
         <div  className="body4-right-section">

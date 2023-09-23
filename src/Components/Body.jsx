@@ -7,6 +7,8 @@ import Body5 from "../Components/bodysections/Body5.jsx";
 import Body6 from "../Components/bodysections/Body6.jsx";
 import Body7 from "../Components/bodysections/Body7.jsx";
 import Body8 from "../Components/bodysections/Body8.jsx";
+import Body9 from "../Components/bodysections/Body9.jsx";
+import Footer from "../Components/bodysections/Footer.jsx";
 
 function Body(){
     return (
@@ -21,10 +23,11 @@ function Body(){
             <Body5/>
             <hr />
             <Body6/>
-            <hr />
             <Body7/>
-            <hr />
             <Body8/>
+            <hr/>
+            <Body9/>
+            <Footer/>
         </div>
     )
 };

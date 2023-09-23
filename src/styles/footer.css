@@ -1,0 +1,50 @@
+.Footer {
+    background-color: #1d1337;
+}
+
+.main-footer {
+    display: flex;
+    padding: 100px;
+}
+
+.footer-section-1 {
+    width: 50%;
+}
+
+.footer-section-2 {
+    width: 25%;
+}
+
+.footer-section-3 {
+    width: 25%;
+}
+
+.linked--, #fol-us, #useful--links, #contact--us{
+    color: #ae16cd;
+}
+
+.tou-pp {
+    margin-top: 100px;
+}
+
+#tou-pp {
+    display: flex;
+}
+
+#tou-pp h4 {
+    padding: 0 20px 0 20px;
+}
+
+#tou-pp h4:last-child{
+    border-left: 2px #ae16cd solid;
+}
+
+.all-rights {
+    display: flex;
+    justify-content: center;
+}
+
+#fol-us img {
+    padding: 0 10px 0 5px;
+
+}

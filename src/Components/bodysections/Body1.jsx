@@ -5,15 +5,23 @@ import Manwearing from "../../imgs/man-wearing-smart-watch.png";
 import Chain from "../../imgs/chain.png";
 import Creativesmall from "../../imgs/Creative1.png";
 import star2 from "../../imgs/star2.png";
+import underline from "../../imgs/underline.png";
+import purpleflare from "../../imgs/purple-flare.png";
 // import purpleflare from "../../imgs/Purple-Lens-Flare-PNG.png";
 
 function Body1() {
     return (
         <div className="body-1">
             <div className="body-1-top-section">
-                {/* <img src={purpleflare} id='purple-flare' /> */}
-                <img src={Starpng}/>
-                <h2>Igniting a Revolution in HR Innovation</h2>
+                <img src={purpleflare} id='purple-flare' />
+                
+                <img src={Starpng} id='body1--star'/>
+                <div>
+                    <h2>Igniting a Revolution in HR Innovation</h2>
+                    <img src={underline} id='ignite-underline' />
+                </div>
+                
+
 
                 {/* Fixed stars */}
                 <img src={Starpng} id='fixed-star'/>
@@ -34,8 +42,8 @@ function Body1() {
                     <button id="register--button"> Register </button>
                     <br />
                     <div className="min-left-section">
-                        <h1>00 <span id="hour">H</span></h1>
-                        <h1>00 <span id="minute">M</span></h1>
+                        <h1>00 <span id="hour">H</span></h1>&nbsp;&nbsp;
+                        <h1>00 <span id="minute">M</span></h1>&nbsp;&nbsp;
                         <h1>00 <span id="second">S</span></h1>
                     </div>
                 </div>

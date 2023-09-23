@@ -13,9 +13,16 @@ function Header(){
                     <li><a href="#">Overview</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li id="register-btn"><a href="#">Register</a></li>
                 </ul>
-            </div>
+                </div>
+
+                <div className="header--3">
+                    <ul>
+                        <li id="register-btn"><a href="#">Register</a></li>
+                    </ul>
+                    
+                </div>
+            
         </div>
     )
 };

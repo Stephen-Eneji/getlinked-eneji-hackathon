@@ -1,25 +1,34 @@
 .Header {
-    color: #fff;
     display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
 }
 
 .Header span {
     color: #ae16cd;
 }
 
-.header--2 {
-    width: 50%;
+#register-btn {
+    background-color: #d434f3;
+    padding: 10px 40px 10px 40px;
+    border-radius: 2px;
 }
 
-.header--2 ul {
-    display: flex;
+#register-btn a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.header--2 ul li {
-    padding: 10px;
+.hamburger-menu li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.hamburger-menu li, #register-btn {
     list-style: none;
 }
 
-#register-btn {
-    background-color: #d434f3;
+.hamburger-menu {
+    display: flex;
 }

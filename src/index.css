@@ -2,4 +2,18 @@ body {
     background-color: #150E28;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#903Aff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #442893;
 }
