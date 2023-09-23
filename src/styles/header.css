@@ -1,0 +1,25 @@
+.Header {
+    color: #fff;
+    display: flex;
+}
+
+.Header span {
+    color: #ae16cd;
+}
+
+.header--2 {
+    width: 50%;
+}
+
+.header--2 ul {
+    display: flex;
+}
+
+.header--2 ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+#register-btn {
+    background-color: #d434f3;
+}

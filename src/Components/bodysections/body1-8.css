@@ -1,0 +1,325 @@
+/* Body1 Section start */
+.body-1-top-section {
+    display: flex;
+    padding: 20px;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.main--body1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body-1-left-section {
+    padding: 50px
+}
+
+.body-1-left-section h2 {
+    font-size: 60pt;
+}
+
+#shining-ball {
+    position: relative;
+}
+
+#man-wearing {
+    position: absolute;
+    top: 20;
+    right: 0;
+    opacity: .8;
+}
+
+hr {
+    border: solid  #af16cd40 1px;
+}
+
+#register--button {
+    padding: 10px 30px 10px 30px;
+    background-image: linear-gradient(to right, #fe34b1, #9b10b7);
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+}
+
+#register--button:hover {
+    padding: 12px 32px 12px 32px;
+}
+
+.min-left-section {
+    display: inline-flex;
+}
+
+.min-left-section h1 {
+    font-size: xx-large;
+}
+
+#hour, #minute, #second {
+    font-size: small;
+    padding: 5px;
+}
+
+#chain {
+    position: absolute;
+}
+
+#star {
+    position: absolute;
+    left: 48%;
+}
+
+#creativesmall {
+    position: absolute;
+    width: 50px;
+    left: 35%;
+    top: 38%;
+}
+
+.onepz {
+    color: #9b10b7;
+}
+
+#fixed-star{
+    position: fixed;
+    left: 55%;
+    top: 35%;
+    opacity: .2;
+}
+
+/* Body 1 Section End */
+
+/* Body 2 Section start */
+#the-big-idea {
+    padding: 50px;
+}
+
+.body2-left-section {
+    width: 50%;
+}
+
+.body2-right-section {
+    width: 40%;
+}
+
+.Body2 {
+    display: flex;
+    align-items: center;
+}
+
+#tech-h {
+    color:#fe34b1;
+}
+
+#body2-star {
+    position: absolute;
+    right: 20%;
+} #body2-star img { color: #9b10b7; }
+
+
+/* Body 2 Section END */
+
+/* Body 3 Section Start */
+
+.body3-left-section {
+    width: 40%;
+    padding: 50px;
+}
+
+.body3-right-section {
+    width: 50%;
+}
+
+.body3-right-section img {
+    width: 100%;
+}
+
+.Body3 {
+    display: flex;
+    align-items: center;
+}
+
+#body3-star {
+    position: absolute;
+    left: 30%;
+}
+
+#guidelines {
+    color: #9b10b7;
+}
+
+#starw {
+    position: absolute;
+    left: 50%;
+}
+
+/* Body 3 Section END */
+
+/* Body 4 Section start */
+.body4-left-section {
+    width: 50%;
+}
+
+.body4-right-section {
+    width: 40%;
+}
+
+.Body4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 50px 20px;
+}
+
+#body4-star {
+    position: absolute;
+    left: 10%;
+} 
+
+#key-a--header {
+    color:#9b10b7;
+}
+
+.body-4-btn {
+    padding: 15px 40px 15px 40px;
+    background-color:#fe34b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/* Body 4 Section END */
+
+/* Body 5 Section Start */
+.body5-left-section {
+    width: 40%;
+}
+
+.body5-right-section {
+    width: 50%;
+}
+
+.body5-right-section img {
+    width: 100%;
+}
+
+.Body5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#body5-star {
+    position: absolute;
+    left: 10%;
+    top: 400%; 
+}
+#faq {
+    color: #9b10b7;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-list a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #9b10b7;
+    line-height: 50px;
+}
+
+#plus-icon {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #9b10b7;
+}
+/* Body 5 Section END */
+
+/* Body 6 Section Start */
+
+.body-6-header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#item1-p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.timeline-items div {
+    padding: 20px;
+}
+
+.tl-item1-1 {
+    width: 40%;
+}
+
+.tl-item1-1 h2, p {
+    text-align: right;
+}
+
+.tl-item1-1 h2 {
+    color: #9b10b7;
+}
+
+.tl-item1-3 {
+    width: 40%;
+}
+
+.tl-item1-3 {
+    color: #9b10b7;
+}
+
+.tl-item1-2 {
+    text-align: center; /* Center-align the content horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tl-item1-2 img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .tl-item1-2 span {
+    display: block; /* Make the span a block-level element */
+    padding: 15px;
+    background-color:#9b10b7;
+    border-radius: 40%;
+  }
+
+  /* Inversed Items style */
+
+.tl-item2-1 {
+    width: 40%;
+}
+
+.tl-item2-1 h2 {
+    color: #9b10b7;
+    text-align: right;
+}
+
+.tl-item2-3 {
+    width: 40%;
+}
+
+.tl-item2-3 {
+    color: #9b10b7;
+}
+
+.tl-item2-3 p {
+    color: #fff;
+    text-align: left;
+}
+/* Body 6 Section END */
